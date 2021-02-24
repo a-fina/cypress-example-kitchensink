@@ -2,7 +2,7 @@
   "projectId": "74gpuo",
   "reporter": "junit",
   "reporterOptions": {
-    "mochaFile": "results/cypress-report.xml",
+    "mochaFile": "results/my-test-output-[hash].xml",
     "toConsole": true
   }
 }
