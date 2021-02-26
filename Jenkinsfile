@@ -102,9 +102,9 @@ pipeline {
   post {
     // shutdown the server running in the background
     always {
-      junit 'results/cypress-report.xml'
+      junit 'results/my-test-output-*.xml'
       echo 'Stopping local server'
-      sh 'pkill -f http-server'
+      // sh 'pkill -f http-server'
     }
   }
 }
